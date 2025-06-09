@@ -96,4 +96,4 @@ elif grafico == "Promedio de Horas de Viaje por Tipo de Cargue":
     sns.barplot(x="CARGUE", y="HORAS_VIAJE", data=df, ci="sd", palette="coolwarm")
     plt.title("Horas de Viaje Promedio por Tipo de Cargue")
     plt.xticks(rotation=45)
-    st.pyplot(pl))
+    st.pyplot(pl)
