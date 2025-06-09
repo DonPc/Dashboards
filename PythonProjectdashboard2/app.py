@@ -5,10 +5,7 @@ import seaborn as sns
 import plotly.express as px
 from streamlit.source_util import page_icon_and_name
 
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 
 # Configuración general
 sns.set(style="whitegrid")
